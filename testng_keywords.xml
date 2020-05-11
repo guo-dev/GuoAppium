@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="Suite" parallel="tests" thread-count="2">
+	<listeners>
+<!-- 		<listener class-name='RetryListener'></listener> -->
+		<listener class-name='com.guo.appium.testng.ExtentIReporterListenerUtil'/>
+		<listener class-name='com.guo.appium.testng.TestListener'/>
+	</listeners>
+    <test name="127.0.0.1:62001">
+        <parameter name="udid" value="127.0.0.1:62001"/>
+        <parameter name="port" value="4490"/>
+        <parameter name="platform" value="android"/>
+        <parameter name="sysPort" value="8200"/>
+        <classes>
+            <class name="com.guo.appium.keyworddriver.KeywordsTests"/>
+        </classes>
+    </test>
+</suite>

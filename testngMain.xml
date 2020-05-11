@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="Suite" parallel="tests" thread-count="1">
+    <test name="EJL4C16A23005932">
+        <parameter name="udid" value="EJL4C16A23005932"/>
+        <parameter name="port" value="4491"/>
+        <parameter name="platform" value="android"/>
+        <parameter name="sysPort" value="8200"/>
+        <classes>
+            <class name="com.guo.appium.testcases.DouBanTests"/>
+        </classes>
+    </test>
+</suite>

@@ -1,0 +1,365 @@
+<html>
+<head>
+<title>TestNG:  TUP4C19104003285</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>TUP4C19104003285</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>0/3/2</td>
+</tr><tr>
+<td>Started on:</td><td>Sun Dec 01 17:41:54 CST 2019</td>
+</tr>
+<tr><td>Total time:</td><td>102 seconds (102872 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED CONFIGURATIONS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.testcases.DoubanTests.beforeClass()'><b>beforeClass</b><br>Test class: com.testcases.DoubanTests<br>Parameters: TUP4C19104003281, 4492, android</td>
+<td><div><pre>java.lang.NullPointerException
+	at com.guo.appium.testcases.TestBase.beforeClass(TestBase.java:70)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+... Removed 17 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1693432673", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1693432673'><pre>java.lang.NullPointerException
+	at com.guo.appium.testcases.TestBase.beforeClass(TestBase.java:70)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:455)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
+	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:168)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:105)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
+	at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+</pre></div></td>
+<td>5</td>
+<td>com.testcases.DoubanTests@2f94c4db</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-skipped'>
+<tr><td colspan='4' align='center'><b>SKIPPED CONFIGURATIONS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.testcases.DoubanTests.before()'><b>before</b><br>Test class: com.testcases.DoubanTests</td>
+<td></td>
+<td>0</td>
+<td>com.testcases.DoubanTests@2f94c4db</td></tr>
+<tr>
+<td title='com.testcases.DoubanTests.backHome()'><b>backHome</b><br>Test class: com.testcases.DoubanTests</td>
+<td></td>
+<td>0</td>
+<td>com.testcases.DoubanTests@2f94c4db</td></tr>
+<tr>
+<td title='com.testcases.DoubanTests.backHome()'><b>backHome</b><br>Test class: com.testcases.DoubanTests</td>
+<td></td>
+<td>0</td>
+<td>com.testcases.DoubanTests@2f94c4db</td></tr>
+<tr>
+<td title='com.testcases.DoubanTests.backHome()'><b>backHome</b><br>Test class: com.testcases.DoubanTests</td>
+<td></td>
+<td>0</td>
+<td>com.testcases.DoubanTests@2f94c4db</td></tr>
+<tr>
+<td title='com.testcases.DoubanTests.afterClass()'><b>afterClass</b><br>Test class: com.testcases.DoubanTests</td>
+<td></td>
+<td>0</td>
+<td>com.testcases.DoubanTests@2f94c4db</td></tr>
+<tr>
+<td title='com.testcases.DoubanTests.stopServer()'><b>stopServer</b><br>Test class: com.testcases.DoubanTests</td>
+<td></td>
+<td>0</td>
+<td>com.testcases.DoubanTests@2f94c4db</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.testcases.DoubanTests.test001_login()'><b>test001_login</b><br>Test class: com.testcases.DoubanTests<br>Parameters: 1, 登录密码错误, 18729399607, 123456sd7, 海外手机号登录, pwderror.png</td>
+<td><div><pre>java.lang.AssertionError: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;LXG-PC&apos;, ip: &apos;10.0.0.29&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_201&apos;
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: com.douban.frodo.activity.S..., appPackage: com.douban.frodo, autoGrantPermissions: true, automationName: uiautomator2, databaseEnabled: false, desired: {appActivity: com.douban.frodo.activity.S..., appPackage: com.douban.frodo, autoGrantPermissions: true, automationName: uiautomator2, deviceName: devicename, deviceReadyTimeout: 30, newCommandTimeout: 600, noReset: true, noSign: true, platformName: android, resetKeyboard: true, systemPort: 6058, udid: TUP4C19104003285, unicodeKeyboard: true}, deviceApiLevel: 28, deviceManufacturer: HUAWEI, deviceModel: INE-AL00, deviceName: TUP4C19104003285, deviceReadyTimeout: 30, deviceScreenDensity: 480, deviceScreenSize: 1080x2340, deviceUDID: TUP4C19104003285, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 600, noReset: true, noSign: true, pixelRatio: 3, platform: LINUX, platformName: Android, platformVersion: 9, resetKeyboard: true, statBarHeight: 90, systemPort: 6058, takesScreenshot: true, udid: TUP4C19104003285, unicodeKeyboard: true, viewportRect: {height: 2038, left: 0, top: 90, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 6ff2a30c-8e8d-47db-b9bf-c064467d539d
+*** Element info: {Using=id, value=com.douban.frodo:id/login_button}
+	at com.testcases.DoubanTests.test001_login(DoubanTests.java:52)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+... Removed 17 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace282832983", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace282832983'><pre>java.lang.AssertionError: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;LXG-PC&apos;, ip: &apos;10.0.0.29&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_201&apos;
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: com.douban.frodo.activity.S..., appPackage: com.douban.frodo, autoGrantPermissions: true, automationName: uiautomator2, databaseEnabled: false, desired: {appActivity: com.douban.frodo.activity.S..., appPackage: com.douban.frodo, autoGrantPermissions: true, automationName: uiautomator2, deviceName: devicename, deviceReadyTimeout: 30, newCommandTimeout: 600, noReset: true, noSign: true, platformName: android, resetKeyboard: true, systemPort: 6058, udid: TUP4C19104003285, unicodeKeyboard: true}, deviceApiLevel: 28, deviceManufacturer: HUAWEI, deviceModel: INE-AL00, deviceName: TUP4C19104003285, deviceReadyTimeout: 30, deviceScreenDensity: 480, deviceScreenSize: 1080x2340, deviceUDID: TUP4C19104003285, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 600, noReset: true, noSign: true, pixelRatio: 3, platform: LINUX, platformName: Android, platformVersion: 9, resetKeyboard: true, statBarHeight: 90, systemPort: 6058, takesScreenshot: true, udid: TUP4C19104003285, unicodeKeyboard: true, viewportRect: {height: 2038, left: 0, top: 90, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 6ff2a30c-8e8d-47db-b9bf-c064467d539d
+*** Element info: {Using=id, value=com.douban.frodo:id/login_button}
+	at org.testng.Assert.fail(Assert.java:96)
+	at com.testcases.DoubanTests.test001_login(DoubanTests.java:52)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
+	at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+</pre></div></td>
+<td>14</td>
+<td>com.testcases.DoubanTests@6d1d4d7</td></tr>
+<tr>
+<td title='com.testcases.DoubanTests.test001_login()'><b>test001_login</b><br>Test class: com.testcases.DoubanTests<br>Parameters: 2, 用户不存在跳转验证码发送, 18729399605, 123abc-, 输入验证码, usererror.png</td>
+<td><div><pre>java.lang.AssertionError: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;LXG-PC&apos;, ip: &apos;10.0.0.29&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_201&apos;
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: com.douban.frodo.activity.S..., appPackage: com.douban.frodo, autoGrantPermissions: true, automationName: uiautomator2, databaseEnabled: false, desired: {appActivity: com.douban.frodo.activity.S..., appPackage: com.douban.frodo, autoGrantPermissions: true, automationName: uiautomator2, deviceName: devicename, deviceReadyTimeout: 30, newCommandTimeout: 600, noReset: true, noSign: true, platformName: android, resetKeyboard: true, systemPort: 6058, udid: TUP4C19104003285, unicodeKeyboard: true}, deviceApiLevel: 28, deviceManufacturer: HUAWEI, deviceModel: INE-AL00, deviceName: TUP4C19104003285, deviceReadyTimeout: 30, deviceScreenDensity: 480, deviceScreenSize: 1080x2340, deviceUDID: TUP4C19104003285, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 600, noReset: true, noSign: true, pixelRatio: 3, platform: LINUX, platformName: Android, platformVersion: 9, resetKeyboard: true, statBarHeight: 90, systemPort: 6058, takesScreenshot: true, udid: TUP4C19104003285, unicodeKeyboard: true, viewportRect: {height: 2038, left: 0, top: 90, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 6ff2a30c-8e8d-47db-b9bf-c064467d539d
+*** Element info: {Using=id, value=com.douban.frodo:id/login_button}
+	at com.testcases.DoubanTests.test001_login(DoubanTests.java:52)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+... Removed 17 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1124702321", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1124702321'><pre>java.lang.AssertionError: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;LXG-PC&apos;, ip: &apos;10.0.0.29&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_201&apos;
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: com.douban.frodo.activity.S..., appPackage: com.douban.frodo, autoGrantPermissions: true, automationName: uiautomator2, databaseEnabled: false, desired: {appActivity: com.douban.frodo.activity.S..., appPackage: com.douban.frodo, autoGrantPermissions: true, automationName: uiautomator2, deviceName: devicename, deviceReadyTimeout: 30, newCommandTimeout: 600, noReset: true, noSign: true, platformName: android, resetKeyboard: true, systemPort: 6058, udid: TUP4C19104003285, unicodeKeyboard: true}, deviceApiLevel: 28, deviceManufacturer: HUAWEI, deviceModel: INE-AL00, deviceName: TUP4C19104003285, deviceReadyTimeout: 30, deviceScreenDensity: 480, deviceScreenSize: 1080x2340, deviceUDID: TUP4C19104003285, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 600, noReset: true, noSign: true, pixelRatio: 3, platform: LINUX, platformName: Android, platformVersion: 9, resetKeyboard: true, statBarHeight: 90, systemPort: 6058, takesScreenshot: true, udid: TUP4C19104003285, unicodeKeyboard: true, viewportRect: {height: 2038, left: 0, top: 90, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 6ff2a30c-8e8d-47db-b9bf-c064467d539d
+*** Element info: {Using=id, value=com.douban.frodo:id/login_button}
+	at org.testng.Assert.fail(Assert.java:96)
+	at com.testcases.DoubanTests.test001_login(DoubanTests.java:52)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
+	at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+</pre></div></td>
+<td>14</td>
+<td>com.testcases.DoubanTests@6d1d4d7</td></tr>
+<tr>
+<td title='com.testcases.DoubanTests.test001_login()'><b>test001_login</b><br>Test class: com.testcases.DoubanTests<br>Parameters: 3, 登录成功, yangyangzhuanye@163.com, 123abc, 沙陌, successerror.png</td>
+<td><div><pre>java.lang.AssertionError: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;LXG-PC&apos;, ip: &apos;10.0.0.29&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_201&apos;
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: com.douban.frodo.activity.S..., appPackage: com.douban.frodo, autoGrantPermissions: true, automationName: uiautomator2, databaseEnabled: false, desired: {appActivity: com.douban.frodo.activity.S..., appPackage: com.douban.frodo, autoGrantPermissions: true, automationName: uiautomator2, deviceName: devicename, deviceReadyTimeout: 30, newCommandTimeout: 600, noReset: true, noSign: true, platformName: android, resetKeyboard: true, systemPort: 6058, udid: TUP4C19104003285, unicodeKeyboard: true}, deviceApiLevel: 28, deviceManufacturer: HUAWEI, deviceModel: INE-AL00, deviceName: TUP4C19104003285, deviceReadyTimeout: 30, deviceScreenDensity: 480, deviceScreenSize: 1080x2340, deviceUDID: TUP4C19104003285, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 600, noReset: true, noSign: true, pixelRatio: 3, platform: LINUX, platformName: Android, platformVersion: 9, resetKeyboard: true, statBarHeight: 90, systemPort: 6058, takesScreenshot: true, udid: TUP4C19104003285, unicodeKeyboard: true, viewportRect: {height: 2038, left: 0, top: 90, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 6ff2a30c-8e8d-47db-b9bf-c064467d539d
+*** Element info: {Using=id, value=com.douban.frodo:id/login_button}
+	at com.testcases.DoubanTests.test001_login(DoubanTests.java:52)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+... Removed 17 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1820771017", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1820771017'><pre>java.lang.AssertionError: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;LXG-PC&apos;, ip: &apos;10.0.0.29&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_201&apos;
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: com.douban.frodo.activity.S..., appPackage: com.douban.frodo, autoGrantPermissions: true, automationName: uiautomator2, databaseEnabled: false, desired: {appActivity: com.douban.frodo.activity.S..., appPackage: com.douban.frodo, autoGrantPermissions: true, automationName: uiautomator2, deviceName: devicename, deviceReadyTimeout: 30, newCommandTimeout: 600, noReset: true, noSign: true, platformName: android, resetKeyboard: true, systemPort: 6058, udid: TUP4C19104003285, unicodeKeyboard: true}, deviceApiLevel: 28, deviceManufacturer: HUAWEI, deviceModel: INE-AL00, deviceName: TUP4C19104003285, deviceReadyTimeout: 30, deviceScreenDensity: 480, deviceScreenSize: 1080x2340, deviceUDID: TUP4C19104003285, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 600, noReset: true, noSign: true, pixelRatio: 3, platform: LINUX, platformName: Android, platformVersion: 9, resetKeyboard: true, statBarHeight: 90, systemPort: 6058, takesScreenshot: true, udid: TUP4C19104003285, unicodeKeyboard: true, viewportRect: {height: 2038, left: 0, top: 90, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 6ff2a30c-8e8d-47db-b9bf-c064467d539d
+*** Element info: {Using=id, value=com.douban.frodo:id/login_button}
+	at org.testng.Assert.fail(Assert.java:96)
+	at com.testcases.DoubanTests.test001_login(DoubanTests.java:52)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
+	at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+</pre></div></td>
+<td>14</td>
+<td>com.testcases.DoubanTests@6d1d4d7</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-skipped'>
+<tr><td colspan='4' align='center'><b>SKIPPED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.testcases.DoubanTests.test002_uploadHeaderImg()'><b>test002_uploadHeaderImg</b><br>Test class: com.testcases.DoubanTests</td>
+<td><div><pre>java.lang.Throwable: Method DoubanTests.test002_uploadHeaderImg()[pri:0, instance:com.testcases.DoubanTests@6d1d4d7] depends on not successfully finished methods
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+... Removed 9 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace461598869", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace461598869'><pre>java.lang.Throwable: Method DoubanTests.test002_uploadHeaderImg()[pri:0, instance:com.testcases.DoubanTests@6d1d4d7] depends on not successfully finished methods
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:887)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
+	at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+</pre></div></td>
+<td>0</td>
+<td>null</td></tr>
+<tr>
+<td title='com.testcases.DoubanTests.test999_logout()'><b>test999_logout</b><br>Test class: com.testcases.DoubanTests</td>
+<td><div><pre>java.lang.Throwable: Method DoubanTests.test999_logout()[pri:0, instance:com.testcases.DoubanTests@6d1d4d7] depends on not successfully finished methods
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+... Removed 9 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1692633966", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1692633966'><pre>java.lang.Throwable: Method DoubanTests.test999_logout()[pri:0, instance:com.testcases.DoubanTests@6d1d4d7] depends on not successfully finished methods
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:887)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
+	at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+</pre></div></td>
+<td>0</td>
+<td>null</td></tr>
+</table><p>
+</body>
+</html>

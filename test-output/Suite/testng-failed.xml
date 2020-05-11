@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" name="Failed suite [Suite]" parallel="tests">
+  <listeners>
+    <listener class-name="com.guo.appium.testng.ExtentIReporterListenerUtil"/>
+    <listener class-name="com.guo.appium.testng.TestListener"/>
+  </listeners>
+  <test thread-count="2" name="127.0.0.1:62001(failed)" parallel="tests">
+    <parameter name="port" value="4490"/>
+    <parameter name="udid" value="127.0.0.1:62001"/>
+    <parameter name="platform" value="android"/>
+    <parameter name="sysPort" value="8200"/>
+    <classes>
+      <class name="com.guo.appium.keyworddriver.KeywordsTests">
+        <methods>
+          <include name="backHome"/>
+          <include name="stopServer"/>
+          <include name="beforeClass"/>
+          <include name="startServer"/>
+          <include name="afterClass"/>
+          <include name="test" invocation-numbers="1 2"/>
+        </methods>
+      </class> <!-- KeywordsTests -->
+    </classes>
+  </test> <!-- 127.0.0.1:62001(failed) -->
+</suite> <!-- Failed suite [Suite] -->

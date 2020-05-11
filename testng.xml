@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="Suite" parallel="tests" thread-count="2">
+	<listeners>
+<!-- 		<listener class-name='RetryListener'></listener> -->
+		<listener class-name='com.guo.appium.testng.ExtentIReporterListenerUtil'/>
+		<listener class-name='com.guo.appium.testng.TestListener'/>
+	</listeners>
+    <test name="HUAWEI">
+        <parameter name="udid" value="EJL4C16A23005932"/>
+        <parameter name="port" value="4490"/>
+        <parameter name="platform" value="android"/>
+        <parameter name="sysPort" value="8200"/>
+        <classes>
+            <class name="com.guo.appium.testcases.DouBanTests"/>
+        </classes>
+    </test>
+   <!-- <test name="127.0.0.1:62025">
+        <parameter name="udid" value="127.0.0.1:62025"/>
+        <parameter name="port" value="4491"/>
+        <parameter name="platform" value="android"/>
+        <parameter name="sysPort" value="8201"/>
+        <classes>
+            <class name="com.testcases.DouBanTests"/>
+        </classes>
+    </test> -->
+</suite>
